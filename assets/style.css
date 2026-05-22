@@ -34,7 +34,15 @@ body {
     animation: waveMesh 20s ease infinite;
     padding: 100px 0;
 }
-
+.btn-cta{
+    background: transparent;
+    color: #fff;
+    font-weight: 600;
+    padding: 14px 32px;
+    border-radius: 12px;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    border: 1px solid #fff;
+}
 @keyframes waveMesh {
     0% {
         background-position: 0% 50%;
@@ -498,6 +506,7 @@ h2 {
     line-height: 1.6;
     margin-bottom: 32px;
     font-weight: 400;
+    width: 77%;
 }
 
 /* Clean List Architecture */
@@ -582,11 +591,10 @@ h2 {
 /* Bottom Right Embedded Structural Imagery Layer */
 .course-decorative-graphic {
     position: absolute;
-    bottom: -15px;
-    right: -10px;
+    bottom: 259px;
+    right: 13px;
     width: 140px;
     height: 140px;
-    opacity: 0.06;
     pointer-events: none;
     transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
     z-index: -1;
@@ -747,6 +755,7 @@ h2 {
     background-repeat: no-repeat, no-repeat;
     background-position: center center, center center;
     background-size: cover, cover;
+    border-radius: 16px;
 }
 .cta-content{
     padding:40px;
