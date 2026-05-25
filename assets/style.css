@@ -910,7 +910,12 @@ h2 {
 .master-play-btn i:hover {
     color: #b63136;
 }
-
+.cta-image-wrapper{
+    width: 60%;
+    position: relative;
+    margin-top: -150px;
+    
+}
 /* Hover Feedback Ecosystem */
 .video-theater-wrapper:hover .master-play-btn {
     transform: scale(1.1);
@@ -918,7 +923,12 @@ h2 {
 
     box-shadow: 0 15px 40px rgba(241, 168, 10, 0.3);
 }
-
+.footer{
+    background-color: #f8fafc;
+}
+.accordion-item{
+    margin-bottom: 20px;
+}
 /* Mobile Breakpoint Adaptations */
 @media (max-width: 991.98px) {
     .institution-heading {
